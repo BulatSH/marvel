@@ -15,7 +15,6 @@ class RandomChar extends Component {
         char: {},
         loading: true,
         error: false,
-        imageNotAvailable: false,
     }
 
     marvelService = new MarvelService();
