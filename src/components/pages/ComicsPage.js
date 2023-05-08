@@ -3,14 +3,14 @@ import AppBanner from "../appBanner/AppBanner";
 import ErrorBoundary from "../errorBoundary/ErrorBoundary";
 
 const ComicsPage = () => {
-	return (
-		<>
-			<ErrorBoundary>
-				<AppBanner />
-				<ComicsList />
-			</ErrorBoundary>
-		</>
-	);
-}
+  return (
+    <>
+      <ErrorBoundary>
+        <AppBanner />
+        <ComicsList />
+      </ErrorBoundary>
+    </>
+  );
+};
 
 export default ComicsPage;
