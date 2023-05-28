@@ -10,7 +10,7 @@ const App = () => {
         <AppHeader />
         <main>
           <Routes>
-            <Route path="/" element={<MainPage />} />
+            <Route path="/marvel" element={<MainPage />} />
             <Route path="/comics" element={<ComicsPage />} />
             <Route path="*" element={<Page404 />} />
           </Routes>
